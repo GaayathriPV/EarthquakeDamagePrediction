@@ -1,0 +1,41 @@
+name,type,description,is_desc_feature
+building_id,id,building identification number,0
+geo_level_1_id,id,"geographic region in which building exists, from largest (level 1) to most specific sub-region (level 3)",0
+geo_level_2_id,id,"geographic region in which building exists, from largest (level 1) to most specific sub-region (level 3)",0
+geo_level_3_id,id,"geographic region in which building exists, from largest (level 1) to most specific sub-region (level 3)",0
+count_floors_pre_eq,nominal,number of floors in the building before the earthquake.,0
+age,ratio, age of the building in years.,0
+area_percentage,ratio, normalized area of the building footprint.,0
+height_percentage,ratio, normalized height of the building footprint.,0
+land_surface_condition,nominal, surface condition of the land where the building was built,0
+foundation_type,nominal, type of foundation used while building,1
+roof_type,nominal, type of roof used while building,1
+ground_floor_type,nominal, type of the ground floor,1
+other_floor_type,nominal, type of constructions used in higher than the ground floors (except of roof),1
+position,nominal, position of the building,0
+plan_configuration,nominal, building plan configuration,0
+has_superstructure_adobe_mud,nominal, flag variable that indicates if the superstructure was made of Adobe/Mud.,0
+has_superstructure_mud_mortar_stone,nominal, flag variable that indicates if the superstructure was made of Mud Mortar - Stone.,1
+has_superstructure_stone_flag,nominal, flag variable that indicates if the superstructure was made of Stone.,0
+has_superstructure_cement_mortar_stone,nominal, flag variable that indicates if the superstructure was made of Cement Mortar - Stone.,0
+has_superstructure_mud_mortar_brick,nominal, flag variable that indicates if the superstructure was made of Mud Mortar - Brick.,0
+has_superstructure_cement_mortar_brick,nominal, flag variable that indicates if the superstructure was made of Cement Mortar - Brick.,1
+has_superstructure_timber,nominal, flag variable that indicates if the superstructure was made of Timber.,0
+has_superstructure_bamboo,nominal, flag variable that indicates if the superstructure was made of Bamboo.,0
+has_superstructure_rc_non_engineered,nominal, flag variable that indicates if the superstructure was made of non-engineered reinforced concrete.,0
+has_superstructure_rc_engineered,nominal, flag variable that indicates if the superstructure was made of engineered reinforced concrete.,0
+has_superstructure_other,nominal, flag variable that indicates if the superstructure was made of any other material.,0
+legal_ownership_status,nominal, legal ownership status of the land where building was built,0
+count_families,nominal, number of families that live in the building.,0
+has_secondary_use,nominal, flag variable that indicates if the building was used for any secondary purpose.,0
+has_secondary_use_agriculture,nominal, flag variable that indicates if the building was used for agricultural purposes.,0
+has_secondary_use_hotel,nominal, flag variable that indicates if the building was used as a hotel.,0
+has_secondary_use_rental,nominal, flag variable that indicates if the building was used for rental purposes.,0
+has_secondary_use_institution,nominal, flag variable that indicates if the building was used as a location of any institution.,0
+has_secondary_use_school,nominal, flag variable that indicates if the building was used as a school.,0
+has_secondary_use_industry,nominal, flag variable that indicates if the building was used for industrial purposes.,0
+has_secondary_use_health_post,nominal, flag variable that indicates if the building was used as a health post.,0
+has_secondary_use_gov_office,nominal, flag variable that indicates if the building was used fas a government office.,0
+has_secondary_use_use_police,nominal, flag variable that indicates if the building was used as a police station.,0
+has_secondary_use_other,nominal, flag variable that indicates if the building was secondarily used for other purposes.,0
+damage_grade,nominal,"Target variable (1,2,3)",0
